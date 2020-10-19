@@ -468,8 +468,8 @@
         <calculation class='tableau' formula='100' />
         <range granularity='5' max='150' min='5' />
       </column>
-      <column _.fcp.ParameterDefaultValues.true...source-field='[federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[county]' caption='PARAM_02---Landkreis' datatype='string' name='[Parameter 2]' param-domain-type='list' role='measure' type='nominal' value='&quot;&quot;'>
-        <calculation class='tableau' formula='&quot;&quot;' />
+      <column _.fcp.ParameterDefaultValues.true...source-field='[federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[county]' caption='PARAM_02---Landkreis' datatype='string' name='[Parameter 2]' param-domain-type='list' role='measure' type='nominal' value='&quot;LK Aichach-Friedberg&quot;'>
+        <calculation class='tableau' formula='&quot;LK Aichach-Friedberg&quot;' />
       </column>
       <column caption='PARAM_00---Top n' datatype='integer' name='[Parameter 3]' param-domain-type='range' role='measure' type='quantitative' value='38'>
         <calculation class='tableau' formula='38' />
@@ -482,8 +482,8 @@
           <member value='&quot;Ampel&quot;' />
         </members>
       </column>
-      <column _.fcp.ParameterDefaultValues.true...source-field='[federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[last_update]' caption='PARAM_05---Datum' datatype='string' name='[Parameter 5]' param-domain-type='list' role='measure' type='nominal' value='&quot;&quot;'>
-        <calculation class='tableau' formula='&quot;&quot;' />
+      <column _.fcp.ParameterDefaultValues.true...source-field='[federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[last_update]' caption='PARAM_05---Datum' datatype='string' name='[Parameter 5]' param-domain-type='list' role='measure' type='nominal' value='&quot;19.10.2020, 00:00 Uhr&quot;'>
+        <calculation class='tableau' formula='&quot;19.10.2020, 00:00 Uhr&quot;' />
       </column>
     </datasource>
     <datasource caption='services7.arcgis.com (Esri)' inline='true' name='federated.0dhi3kg1drdx8o12vxqsa1f9xmc6' version='18.1'>
@@ -2047,18 +2047,18 @@
       <column-instance column='[Calculation_759419524416110592]' derivation='User' name='[usr:Calculation_759419524416110592:nk]' pivot='key' type='nominal' />
       <column-instance column='[Calculation_759419524420964353]' derivation='User' name='[usr:Calculation_759419524420964353:nk:2]' pivot='key' type='nominal'>
         <table-calc ordering-field='' ordering-type='Field' />
-        <table-calc field='[federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[Calculation_165296216337489923]' ordering-field='' ordering-type='Field' />
         <table-calc field='[federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[FARBE_Grenzwerte (copy)_165296216352751628]' ordering-type='Rows' />
+        <table-calc field='[federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[Calculation_165296216337489923]' ordering-field='' ordering-type='Field' />
       </column-instance>
       <column-instance column='[Calculation_759419524420964353]' derivation='User' name='[usr:Calculation_759419524420964353:nk:4]' pivot='key' type='nominal'>
         <table-calc ordering-type='Columns' />
-        <table-calc field='[federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[Calculation_165296216337489923]' ordering-type='Rows' />
         <table-calc field='[federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[FARBE_Grenzwerte (copy)_165296216352751628]' ordering-type='Rows' />
+        <table-calc field='[federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[Calculation_165296216337489923]' ordering-type='Rows' />
       </column-instance>
       <column-instance column='[Calculation_759419524420964353]' derivation='User' name='[usr:Calculation_759419524420964353:nk:8]' pivot='key' type='nominal'>
         <table-calc ordering-type='Columns' />
-        <table-calc field='[federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[FARBE_Grenzwerte (copy)_165296216352751628]' ordering-type='Rows' />
         <table-calc field='[federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[Calculation_165296216337489923]' ordering-type='Columns' />
+        <table-calc field='[federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[FARBE_Grenzwerte (copy)_165296216352751628]' ordering-type='Rows' />
       </column-instance>
       <column-instance column='[FARBE_Grenzwerte (copy)_165296216352751628]' derivation='User' name='[usr:FARBE_Grenzwerte (copy)_165296216352751628:nk]' pivot='key' type='nominal'>
         <table-calc ordering-type='Rows' />
@@ -2112,7 +2112,7 @@
           <field>[county]</field>
         </drill-path>
       </drill-paths>
-      <extract _.fcp.ObjectModelExtractV2.true...object-id='' count='-1' enabled='false' units='records'>
+      <extract _.fcp.ObjectModelExtractV2.true...object-id='' count='-1' enabled='true' units='records'>
         <connection access_mode='readonly' authentication='auth-none' author-locale='en_GB' class='hyper' dbname='/Users/thomasmassie/Documents/My Tableau Repository/Datasources/federated.0dhi3kg1drdx8o12vxqsa1f9xmc6_01q57bm10m4ppn18s00ts02n0cui.hyper' default-settings='yes' schema='Extract' sslmode='' update-time='10/19/2020 06:29:39 AM' username='tableau_internal_user'>
           <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='DIVI_Intensivregister_Landkreise_FeatureServer_DIVI_Intensivregister_Landkreise_934F690CFF7E4CC7AA71AC29995B9F0E' table='[Extract].[DIVI_Intensivregister_Landkreise_FeatureServer_DIVI_Intensivregister_Landkreise_934F690CFF7E4CC7AA71AC29995B9F0E]' type='table' />
           <_.fcp.ObjectModelEncapsulateLegacy.true...relation type='collection'>
@@ -3727,8 +3727,8 @@
           <calculation class='tableau' formula='100' />
           <range granularity='5' max='150' min='5' />
         </column>
-        <column _.fcp.ParameterDefaultValues.true...source-field='[federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[county]' caption='PARAM_02---Landkreis' datatype='string' name='[Parameter 2]' param-domain-type='list' role='measure' type='nominal' value='&quot;&quot;'>
-          <calculation class='tableau' formula='&quot;&quot;' />
+        <column _.fcp.ParameterDefaultValues.true...source-field='[federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[county]' caption='PARAM_02---Landkreis' datatype='string' name='[Parameter 2]' param-domain-type='list' role='measure' type='nominal' value='&quot;LK Aichach-Friedberg&quot;'>
+          <calculation class='tableau' formula='&quot;LK Aichach-Friedberg&quot;' />
         </column>
         <column caption='PARAM_00---Top n' datatype='integer' name='[Parameter 3]' param-domain-type='range' role='measure' type='quantitative' value='38'>
           <calculation class='tableau' formula='38' />
@@ -3878,8 +3878,8 @@
             <datasource name='Parameters' />
           </datasources>
           <datasource-dependencies datasource='Parameters'>
-            <column _.fcp.ParameterDefaultValues.true...source-field='[federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[county]' caption='PARAM_02---Landkreis' datatype='string' name='[Parameter 2]' param-domain-type='list' role='measure' type='nominal' value='&quot;&quot;'>
-              <calculation class='tableau' formula='&quot;&quot;' />
+            <column _.fcp.ParameterDefaultValues.true...source-field='[federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[county]' caption='PARAM_02---Landkreis' datatype='string' name='[Parameter 2]' param-domain-type='list' role='measure' type='nominal' value='&quot;LK Aichach-Friedberg&quot;'>
+              <calculation class='tableau' formula='&quot;LK Aichach-Friedberg&quot;' />
             </column>
             <column caption='PARAM_00---Top n' datatype='integer' name='[Parameter 3]' param-domain-type='range' role='measure' type='quantitative' value='38'>
               <calculation class='tableau' formula='38' />
@@ -3942,8 +3942,8 @@
             <column-instance column='[county]' derivation='None' name='[none:county:nk]' pivot='key' type='nominal' />
             <column-instance column='[Calculation_759419524420964353]' derivation='User' name='[usr:Calculation_759419524420964353:nk:8]' pivot='key' type='nominal'>
               <table-calc ordering-type='Columns' />
-              <table-calc field='[federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[FARBE_Grenzwerte (copy)_165296216352751628]' ordering-type='Rows' />
               <table-calc field='[federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[Calculation_165296216337489923]' ordering-type='Columns' />
+              <table-calc field='[federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[FARBE_Grenzwerte (copy)_165296216352751628]' ordering-type='Rows' />
             </column-instance>
           </datasource-dependencies>
           <filter class='categorical' column='[federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[Landkreis Set]' />
@@ -4264,8 +4264,8 @@
             <mapsource name='Tableau' />
           </mapsources>
           <datasource-dependencies datasource='Parameters'>
-            <column _.fcp.ParameterDefaultValues.true...source-field='[federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[county]' caption='PARAM_02---Landkreis' datatype='string' name='[Parameter 2]' param-domain-type='list' role='measure' type='nominal' value='&quot;&quot;'>
-              <calculation class='tableau' formula='&quot;&quot;' />
+            <column _.fcp.ParameterDefaultValues.true...source-field='[federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[county]' caption='PARAM_02---Landkreis' datatype='string' name='[Parameter 2]' param-domain-type='list' role='measure' type='nominal' value='&quot;LK Aichach-Friedberg&quot;'>
+              <calculation class='tableau' formula='&quot;LK Aichach-Friedberg&quot;' />
             </column>
             <column caption='PARAM_04---Farbe_01' datatype='string' name='[Parameter 4]' param-domain-type='list' role='measure' type='nominal' value='&quot;Ampel&quot;'>
               <calculation class='tableau' formula='&quot;Ampel&quot;' />
@@ -4350,8 +4350,8 @@
             <column-instance column='[Calculation_165296216340402182]' derivation='User' name='[usr:Calculation_165296216340402182:qk]' pivot='key' type='quantitative' />
             <column-instance column='[Calculation_759419524420964353]' derivation='User' name='[usr:Calculation_759419524420964353:nk:2]' pivot='key' type='nominal'>
               <table-calc ordering-field='' ordering-type='Field' />
-              <table-calc field='[federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[Calculation_165296216337489923]' ordering-field='' ordering-type='Field' />
               <table-calc field='[federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[FARBE_Grenzwerte (copy)_165296216352751628]' ordering-type='Rows' />
+              <table-calc field='[federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[Calculation_165296216337489923]' ordering-field='' ordering-type='Field' />
             </column-instance>
             <column-instance column='[Shape__Area (copy)_165296216340021253]' derivation='User' name='[usr:Shape__Area (copy)_165296216340021253:qk]' pivot='key' type='quantitative' />
           </datasource-dependencies>
@@ -6822,8 +6822,8 @@
             <datasource name='Parameters' />
           </datasources>
           <datasource-dependencies datasource='Parameters'>
-            <column _.fcp.ParameterDefaultValues.true...source-field='[federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[county]' caption='PARAM_02---Landkreis' datatype='string' name='[Parameter 2]' param-domain-type='list' role='measure' type='nominal' value='&quot;&quot;'>
-              <calculation class='tableau' formula='&quot;&quot;' />
+            <column _.fcp.ParameterDefaultValues.true...source-field='[federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[county]' caption='PARAM_02---Landkreis' datatype='string' name='[Parameter 2]' param-domain-type='list' role='measure' type='nominal' value='&quot;LK Aichach-Friedberg&quot;'>
+              <calculation class='tableau' formula='&quot;LK Aichach-Friedberg&quot;' />
             </column>
             <column caption='PARAM_04---Farbe_01' datatype='string' name='[Parameter 4]' param-domain-type='list' role='measure' type='nominal' value='&quot;Ampel&quot;'>
               <calculation class='tableau' formula='&quot;Ampel&quot;' />
@@ -6874,8 +6874,8 @@
             <column-instance column='[cases7_per_100k]' derivation='Sum' name='[sum:cases7_per_100k:qk]' pivot='key' type='quantitative' />
             <column-instance column='[Calculation_759419524420964353]' derivation='User' name='[usr:Calculation_759419524420964353:nk:4]' pivot='key' type='nominal'>
               <table-calc ordering-type='Columns' />
-              <table-calc field='[federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[Calculation_165296216337489923]' ordering-type='Rows' />
               <table-calc field='[federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[FARBE_Grenzwerte (copy)_165296216352751628]' ordering-type='Rows' />
+              <table-calc field='[federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[Calculation_165296216337489923]' ordering-type='Rows' />
             </column-instance>
           </datasource-dependencies>
           <computed-sort column='[federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[none:county:nk]' direction='DESC' using='[federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[avg:cases7_per_100k:qk]' />
@@ -7858,8 +7858,8 @@
             <datasource name='Parameters' />
           </datasources>
           <datasource-dependencies datasource='Parameters'>
-            <column _.fcp.ParameterDefaultValues.true...source-field='[federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[county]' caption='PARAM_02---Landkreis' datatype='string' name='[Parameter 2]' param-domain-type='list' role='measure' type='nominal' value='&quot;&quot;'>
-              <calculation class='tableau' formula='&quot;&quot;' />
+            <column _.fcp.ParameterDefaultValues.true...source-field='[federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[county]' caption='PARAM_02---Landkreis' datatype='string' name='[Parameter 2]' param-domain-type='list' role='measure' type='nominal' value='&quot;LK Aichach-Friedberg&quot;'>
+              <calculation class='tableau' formula='&quot;LK Aichach-Friedberg&quot;' />
             </column>
           </datasource-dependencies>
           <datasource-dependencies datasource='federated.0dhi3kg1drdx8o12vxqsa1f9xmc6'>
@@ -7938,8 +7938,8 @@
             <datasource name='Parameters' />
           </datasources>
           <datasource-dependencies datasource='Parameters'>
-            <column _.fcp.ParameterDefaultValues.true...source-field='[federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[county]' caption='PARAM_02---Landkreis' datatype='string' name='[Parameter 2]' param-domain-type='list' role='measure' type='nominal' value='&quot;&quot;'>
-              <calculation class='tableau' formula='&quot;&quot;' />
+            <column _.fcp.ParameterDefaultValues.true...source-field='[federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[county]' caption='PARAM_02---Landkreis' datatype='string' name='[Parameter 2]' param-domain-type='list' role='measure' type='nominal' value='&quot;LK Aichach-Friedberg&quot;'>
+              <calculation class='tableau' formula='&quot;LK Aichach-Friedberg&quot;' />
             </column>
           </datasource-dependencies>
           <datasource-dependencies datasource='federated.0dhi3kg1drdx8o12vxqsa1f9xmc6'>
@@ -8045,8 +8045,8 @@
             <datasource name='Parameters' />
           </datasources>
           <datasource-dependencies datasource='Parameters'>
-            <column _.fcp.ParameterDefaultValues.true...source-field='[federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[county]' caption='PARAM_02---Landkreis' datatype='string' name='[Parameter 2]' param-domain-type='list' role='measure' type='nominal' value='&quot;&quot;'>
-              <calculation class='tableau' formula='&quot;&quot;' />
+            <column _.fcp.ParameterDefaultValues.true...source-field='[federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[county]' caption='PARAM_02---Landkreis' datatype='string' name='[Parameter 2]' param-domain-type='list' role='measure' type='nominal' value='&quot;LK Aichach-Friedberg&quot;'>
+              <calculation class='tableau' formula='&quot;LK Aichach-Friedberg&quot;' />
             </column>
           </datasource-dependencies>
           <datasource-dependencies datasource='federated.0dhi3kg1drdx8o12vxqsa1f9xmc6'>
@@ -8187,8 +8187,8 @@
         <datasource name='Parameters' />
       </datasources>
       <datasource-dependencies datasource='Parameters'>
-        <column _.fcp.ParameterDefaultValues.true...source-field='[federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[county]' caption='PARAM_02---Landkreis' datatype='string' name='[Parameter 2]' param-domain-type='list' role='measure' type='nominal' value='&quot;&quot;'>
-          <calculation class='tableau' formula='&quot;&quot;' />
+        <column _.fcp.ParameterDefaultValues.true...source-field='[federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[county]' caption='PARAM_02---Landkreis' datatype='string' name='[Parameter 2]' param-domain-type='list' role='measure' type='nominal' value='&quot;LK Aichach-Friedberg&quot;'>
+          <calculation class='tableau' formula='&quot;LK Aichach-Friedberg&quot;' />
         </column>
         <column caption='PARAM_04---Farbe_01' datatype='string' name='[Parameter 4]' param-domain-type='list' role='measure' type='nominal' value='&quot;Ampel&quot;'>
           <calculation class='tableau' formula='&quot;Ampel&quot;' />
@@ -8648,8 +8648,8 @@
         <datasource name='Parameters' />
       </datasources>
       <datasource-dependencies datasource='Parameters'>
-        <column _.fcp.ParameterDefaultValues.true...source-field='[federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[county]' caption='PARAM_02---Landkreis' datatype='string' name='[Parameter 2]' param-domain-type='list' role='measure' type='nominal' value='&quot;&quot;'>
-          <calculation class='tableau' formula='&quot;&quot;' />
+        <column _.fcp.ParameterDefaultValues.true...source-field='[federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[county]' caption='PARAM_02---Landkreis' datatype='string' name='[Parameter 2]' param-domain-type='list' role='measure' type='nominal' value='&quot;LK Aichach-Friedberg&quot;'>
+          <calculation class='tableau' formula='&quot;LK Aichach-Friedberg&quot;' />
         </column>
         <column caption='PARAM_04---Farbe_01' datatype='string' name='[Parameter 4]' param-domain-type='list' role='measure' type='nominal' value='&quot;Ampel&quot;'>
           <calculation class='tableau' formula='&quot;Ampel&quot;' />
@@ -8789,8 +8789,8 @@
         <datasource name='Parameters' />
       </datasources>
       <datasource-dependencies datasource='Parameters'>
-        <column _.fcp.ParameterDefaultValues.true...source-field='[federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[county]' caption='PARAM_02---Landkreis' datatype='string' name='[Parameter 2]' param-domain-type='list' role='measure' type='nominal' value='&quot;&quot;'>
-          <calculation class='tableau' formula='&quot;&quot;' />
+        <column _.fcp.ParameterDefaultValues.true...source-field='[federated.0dhi3kg1drdx8o12vxqsa1f9xmc6].[county]' caption='PARAM_02---Landkreis' datatype='string' name='[Parameter 2]' param-domain-type='list' role='measure' type='nominal' value='&quot;LK Aichach-Friedberg&quot;'>
+          <calculation class='tableau' formula='&quot;LK Aichach-Friedberg&quot;' />
         </column>
         <column caption='PARAM_00---Top n' datatype='integer' name='[Parameter 3]' param-domain-type='range' role='measure' type='quantitative' value='38'>
           <calculation class='tableau' formula='38' />
