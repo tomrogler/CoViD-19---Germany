@@ -17,7 +17,7 @@ Ein Dashboard
 
 - Schneller Überblick über die wichtigsten Kennzahlen für Bayern und Landshut.
 - Leicht verständlich (selbsterklärend).
-- Betrachter bekommt ein Gefühl für die Dynamik der Pandemie.
+- BetrachterIn bekommt ein Gefühl für die Dynamik der Pandemie.
 - Vergleiche mit anderen Stadt-/Landkreisen sind möglich; dadurch kann die eigene Lage eingeordnet werden.
 
 ### Offene fragen
