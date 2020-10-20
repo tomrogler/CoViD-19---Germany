@@ -38,7 +38,7 @@ Aktuell sieht dieser so aus:
 - **Aufteilung**: Kann eine Tableau-Landing Page im oberen Teil ein dashboard und im unteren Teil redaktionellen Text beinhalten (vgl. Link München)?
   > *TMM*: Klar! Die Seite kann einrichtet werden wie man möchte. Oder eben verschiedene Seiten...
 - **Ansichten**: Kann Tableau responsive design?
-  > *TMM*: Logo! Es können diverse Anpassungen (Desktop, iPhone, iPad...) vorgenommen werden.$
+  > *TMM*: Logo! Es können diverse Anpassungen (Desktop, iPhone, iPad...) vorgenommen werden.
 - **Landing Page**: Mein Wunsch wäre, dass die von uns einzurichtende Subdomain (z.B. corona.landshut.de o.ä), welche die landingpage  darstellt (framelösung).
   > *TMM*: Um das zu verstehen: Das Tableau Dashboard soll in die Website eingebettet werden? Das geht und sollte von den ITlern vor Ort problemlos umgesetzt werden können.
  
