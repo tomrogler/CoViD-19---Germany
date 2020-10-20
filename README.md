@@ -22,9 +22,9 @@ Ein Dashboard
 
 ### Offene fragen
  
- - Forecast: Kann man die Vorhersage vom [Jülich Supercomputing Centre](https://covid19-bayesian.fz-juelich.de/) nutzen? 
+ - **Forecast**: Kann man die Vorhersage vom [Jülich Supercomputing Centre](https://covid19-bayesian.fz-juelich.de/) nutzen? 
  > So, wie ich das sehe, können wir die Vorhersagen nicht selbst erstellen, no way. Sie bieten die Daten aber auch leider nicht über eine Schnittstelle (API) an.
- - Die durch die Ampel kodierten Maßnahmen folgen Grenzwerten. Allerdings werden diese evtl. nicht automatisiert angeordnet bzw. wieder aufgehoben. Weiss jemand, wie diese genau wirksam werden?
+ - **Ampel**: Die durch die Ampel kodierten Maßnahmen folgen Grenzwerten. Allerdings werden diese evtl. nicht automatisiert angeordnet bzw. wieder aufgehoben. Weiss jemand, wie diese genau wirksam werden?
  
 ### Aufgaben
  
