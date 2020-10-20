@@ -32,6 +32,7 @@ Ein Dashboard
 ### Aufgaben
  
 - [ ] Stadtkreis und Landkreis Landshut zusammenlegen
+- [ ] Zeitreihen schnellstmöglich hinzufügen.
 - [ ] Krankebetten-Daten anpassen, d.h., eindeutige Benennung
 - [ ] Ampelfunktion anpassen: Eine Ampel besteht mind. 1 Woche bevor sie wieder heruntergesetzt werden kann. 
   > TMM: **Frage**: Höherstufen passiert sofort? Wäre ja logisch. Allerdings werden die Maßnahmen nicht automatisiert angeordnet, oder (s.o.)?
