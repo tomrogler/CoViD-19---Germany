@@ -20,6 +20,13 @@ Ein Dashboard
 - BetrachterIn bekommt ein Gefühl für die Dynamik der Pandemie.
 - Vergleiche mit anderen Stadt-/Landkreisen sind möglich; dadurch kann die eigene Lage eingeordnet werden.
 
+### Prototyp
+
+Der Prototyp befindet sich auf Tableau Public und kann [hier](https://public.tableau.com/profile/thomas.massie#!/vizhome/CoViD-19---Bayern-Prototype01---Test/Dashboard) aufgerufen werden.
+
+Aktuell sieht dieser so aus:
+![Alt-Text](/Pfad/zum/Bild.jpg "optionaler Titel")
+
 ### Offene fragen
  
 - **Daten**:
