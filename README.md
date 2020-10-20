@@ -25,7 +25,7 @@ Ein Dashboard
 Der Prototyp befindet sich auf Tableau Public und kann [hier](https://public.tableau.com/profile/thomas.massie#!/vizhome/CoViD-19---Bayern-Prototype01---Test/Dashboard) aufgerufen werden.
 
 Aktuell sieht dieser so aus:
-![Alt-Text](/Pfad/zum/Bild.jpg "optionaler Titel")
+![Prototyp](https://github.com/thomassie/CoViD-19---Germany/blob/main/04---Screenshots/Bildschirmfoto%202020-10-21%20um%2000.05.37.png)
 
 ### Offene fragen
  
