@@ -50,3 +50,5 @@ Aktuell sieht dieser so aus:
 - [ ] Ampelfunktion anpassen: Eine Ampel besteht mind. 1 Woche bevor sie wieder heruntergesetzt werden kann. 
   > *TMM*: Höherstufen passiert sofort? Wäre ja logisch. Allerdings werden die Maßnahmen nicht automatisiert angeordnet, oder (s.o.)?
 - [ ] Rechtschreibung und Termini überprüfen/korrigieren
+
+### Gruß aus Landshut
